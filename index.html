@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TIMONKIZZ · Growth · BD</title>
+<meta name="description" content="Timonkizz_CEO. Web3 growth, business development, and community. Open for paid work." />
+<meta property="og:image" content="assets/avatar.jpg" />
+<style>
+  :root { --bg:#070705; --card:#12110c; --card2:#1a1810; --line:#2e2a1c; --gold:#d4af37; --gold2:#f3e6b8; --text:#faf7ef; --mute:#ddd4bc; --soft:#9a8f72; }
+  [data-theme="light"] { --bg:#faf8f2; --card:#fff; --card2:#f4efe2; --line:#e6dcc4; --gold:#8a6a12; --gold2:#6b5310; --text:#16140e; --mute:#4a4332; --soft:#9a8f72; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.55; }
+  .wrap { width:min(1080px, calc(100% - 36px)); margin:0 auto; }
+  a { color:inherit; text-decoration:none; } img { display:block; max-width:100%; }
+  header { position:sticky; top:0; z-index:20; background:color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter:blur(14px); border-bottom:1px solid var(--line); }
+  .nav { display:flex; align-items:center; justify-content:space-between; padding:14px 0; }
+  .logo { letter-spacing:.16em; font-size:12px; color:var(--gold); font-weight:700; }
+  nav { display:flex; gap:18px; align-items:center; font-size:13px; color:var(--mute); }
+  .tog { border:1px solid var(--line); background:transparent; color:var(--mute); border-radius:999px; padding:6px 12px; font-size:11px; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; }
+  .hero { display:grid; grid-template-columns:1.1fr .9fr; gap:48px; align-items:center; padding:72px 0 48px; }
+  .avail { color:var(--gold); font-size:12px; letter-spacing:.16em; text-transform:uppercase; margin-bottom:18px; font-weight:700; }
+  h1 { font-size:clamp(40px, 6vw, 68px); font-weight:800; letter-spacing:-.05em; line-height:.9; margin-bottom:14px; }
+  .sub, .lead, .stat span, .card p, .work p { color:var(--mute); }
+  .sub { margin-bottom:22px; } .sub b { color:var(--gold); }
+  .obj { max-width:540px; border-left:3px solid var(--gold); background:rgba(212,175,55,.1); padding:16px 18px; border-radius:0 12px 12px 0; }
+  .obj small { display:block; color:var(--gold); letter-spacing:.14em; font-size:11px; text-transform:uppercase; margin-bottom:6px; font-weight:700; }
+  .row { display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; }
+  .btn { display:inline-flex; border-radius:999px; padding:11px 18px; font-size:14px; font-weight:600; border:1px solid var(--line); background:var(--card); }
+  .fill { background:var(--gold); color:#16140e; border-color:var(--gold); }
+  .portrait, .stat, .card, .work { background:var(--card); border:1px solid var(--line); border-radius:18px; }
+  .portrait { padding:14px; border-radius:28px; }
+  .portrait img { width:100%; border-radius:20px; aspect-ratio:1; object-fit:cover; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+  .chip { font-size:12px; color:var(--gold); border:1px solid var(--line); border-radius:999px; padding:6px 10px; font-weight:600; }
+  section { padding:28px 0 8px; }
+  .kicker { color:var(--gold); letter-spacing:.14em; font-size:12px; font-weight:700; margin-bottom:8px; }
+  h2 { font-size:clamp(28px, 4vw, 40px); letter-spacing:-.04em; margin-bottom:12px; }
+  .lead { max-width:720px; margin-bottom:18px; }
+  .stats, .grid2, .grid3 { display:grid; gap:12px; }
+  .stats { grid-template-columns:repeat(3,1fr); } .grid2 { grid-template-columns:1fr 1fr; } .grid3 { grid-template-columns:repeat(3,1fr); }
+  .stat, .card, .work { padding:18px; }
+  .stat strong { display:block; font-size:28px; }
+  .work { margin-bottom:12px; }
+  .work a { color:var(--gold); font-weight:600; font-size:13px; display:inline-block; margin-top:12px; }
+  .quote { margin:22px 0; padding:22px; border-radius:18px; background:var(--card2); border:1px solid var(--line); font-size:18px; }
+  .quote small { display:block; margin-top:8px; color:var(--mute); font-size:13px; }
+  .hire { text-align:center; padding:42px 0 64px; }
+  footer { border-top:1px solid var(--line); color:var(--soft); font-size:13px; display:flex; justify-content:space-between; padding:18px 0 28px; }
+  @media (max-width:800px) { .hero, .grid3, .grid2, .stats { grid-template-columns:1fr; } nav a { display:none; } }
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#top">TIMONKIZZ</a><nav><a href="#work">Work</a><a href="#hire">Hire</a><button class="tog" id="theme" type="button">Light</button></nav></div></header>
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <p class="avail">Open for paid work and collabs</p>
+      <h1>TIMONKIZZ</h1>
+      <p class="sub">Growth <b>·</b> BD <b>·</b> Community</p>
+      <div class="obj"><small>// objective_</small>Building growth, partnerships, and communities across Web3.</div>
+      <div class="row"><a class="btn fill" href="https://x.com/Timonkizz_CEO" target="_blank" rel="noopener">DM on X</a><a class="btn" href="https://t.me/OX_TIMS" target="_blank" rel="noopener">Telegram</a></div>
+    </div>
+    <div class="portrait"><img src="assets/avatar.jpg" alt="Timonkizz" /><div class="chips"><span class="chip">@Timonkizz_CEO</span><span class="chip">2.6K on X</span><span class="chip">Africa BD</span></div></div>
+  </section>
+  <section>
+    <p class="kicker">// about_</p><h2>Who I am</h2>
+    <p class="lead">Growth and business development. Communities, partnerships, KOLs, and the work that keeps a project visible after launch. BD lead for Africa at LiquidEdge. Collaboration work with Afriverse.</p>
+    <p class="lead">Open for consulting, growth seats, campaigns, events, and long collabs.</p>
+    <div class="stats"><div class="stat"><strong>2.6K</strong><span>X followers</span></div><div class="stat"><strong>Africa</strong><span>BD lead, LiquidEdge</span></div><div class="stat"><strong>Rooms</strong><span>Afriverse and more</span></div></div>
+  </section>
+  <section>
+    <p class="kicker">// what you are hiring_</p><h2>What I offer</h2>
+    <div class="grid3">
+      <article class="card"><h3>BD</h3><p>Partnerships, GTM, and exchange conversations.</p></article>
+      <article class="card"><h3>Growth</h3><p>Community, KOL campaigns, and visibility.</p></article>
+      <article class="card"><h3>Activation</h3><p>Spaces, ambassador programs, and IRL events.</p></article>
+    </div>
+  </section>
+  <section id="work">
+    <p class="kicker">// proof_</p><h2>Selected work</h2>
+    <div class="grid2">
+      <article class="work"><p class="kicker">LIQUIDEDGE</p><h3>BD lead, Africa</h3><p>Community, operations, and business development. Named on the profile.</p><a href="https://x.com/LiquidEdgeNTWRK" target="_blank" rel="noopener">Open the project →</a></article>
+      <article class="work"><p class="kicker">AFRIVERSE</p><h3>Collaboration and ecosystem</h3><p>Collaboration manager and ecosystem support.</p><a href="https://x.com/AfriverseDAO" target="_blank" rel="noopener">Open the project →</a></article>
+      <article class="work"><p class="kicker">APEXIUM</p><h3>Collab manager</h3><p>Growth and BD with the agency.</p><a href="https://x.com/ApexiumAgency" target="_blank" rel="noopener">Open the agency →</a></article>
+      <article class="work"><p class="kicker">ATOK · CUREFI</p><h3>Community and partnerships</h3><p>Growth support at Atok. Partnerships and ambassador work at CureFi.</p><a href="https://x.com/Timonkizz_CEO" target="_blank" rel="noopener">Open the profile →</a></article>
+    </div>
+    <div class="quote">“Building growth, partnerships, and communities across Web3.”<small>The seat. Campaign numbers sit with the team.</small></div>
+  </section>
+  <section class="hire" id="hire">
+    <p class="kicker">// let’s work_</p><h2>Open for paid work</h2>
+    <p class="lead">A partnership, a campaign, or a long seat.</p>
+    <div class="row" style="justify-content:center"><a class="btn fill" href="https://x.com/Timonkizz_CEO">@Timonkizz_CEO</a><a class="btn" href="https://t.me/OX_TIMS">t.me/OX_TIMS</a></div>
+  </section>
+</main>
+<footer class="wrap"><span>TIMONKIZZ</span><span>@Timonkizz_CEO · t.me/OX_TIMS</span></footer>
+<script>const btn=document.getElementById("theme");btn.onclick=()=>{const l=document.body.dataset.theme==="light";document.body.dataset.theme=l?"":"light";btn.textContent=l?"Light":"Dark";};</script>
+</body>
+</html>
